@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Projects from './Projects';
 
 interface propsType {
   title: string;
@@ -12,12 +13,12 @@ const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
     <div className='border border-accent w-[300px] sm:w-[350px]'>
       <div>
         <image className='w-[300px] sm:w-[350px] h-auto'
-        src={img}
-        width={350}
-        hight={350}
-        alt={title}
+          src ={img}
+          width={350}
+          height={300}
+          alt={title}
         />
-      </div> 
+      </div>
 
       <div className='p-4 space-y-4'>
         <div className='text-4xl font-extralight'>{title}</div>

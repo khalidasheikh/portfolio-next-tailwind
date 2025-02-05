@@ -3,8 +3,8 @@ import Navebar from './Navebar';
 
 const Hero = () => {
   return (
-    <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/image.jpg)]  bg-left lg:bg-[15%] bg-cover'
-     style={{backgroundSize: "25%", backgroundPosition: "left 100px top 100px"}}>
+    <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/Image.jpg)] bg-cover'
+     style={{backgroundSize: "25%", backgroundPosition: "left 120px top 100px"}}>
       <Navebar /> 
       <div className='container grid lg:grid-cols-2 h-[colc(100vh-60px)]'>
         <div className='hidden lg:block'></div>
@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
     </div>
 
-);
+)
 };
 
 export default Hero;
